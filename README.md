@@ -19,12 +19,12 @@ I've splited image list and I decreased image size. So at the end of the process
  Bu depo resimleri npy formatına dönüştürücü ve dönüştürülmüş npy dosyalarına ulaşmanızı sağlayan bir bağlantı içermektedir.
  NPY, numpy array'lerini depolamak için kullanılan bir dosya formatıdır. NPY dönüştürücü nasıl çalışır? Öncelikle gerekli python modüllerini import eder.
  Bunlar numpy, cv2, pillow, matplotlib.pyplot, os, sys ve google.cloab(isteğe bağlı)'dır. 
- Eğer kodu bilgisayarınızda çalıştıracaksanız google.cloab modülüne ihtiyacınız yoktur.
+ Eğer kodu bilgisayarınızda çalıştıracaksanız google.colab modülüne ihtiyacınız yoktur.
  
  Tüm resimleri bir klasörün içine eklemelisiniz. Bundan sonra aynı klasöre python kodunu kopyalayın. Kod, klasördeki tüm dosyaların listesini alacaktır.
  
  Dikkat! Bir hata meydana gelebilir.Eğer büyük resimler üzerinde işlem yapıyorsanız RAM'iniz bu iş için yetmeyebilir ve hata alırsınız. 
- Eğer yeterince büyük RAM'iniz yoksa Google Colab ya da başka bir bulut servisi kullanmanızı tavsiye ediyorum. Ben Google Colab kullandım fakat onun RAM'i de bana yetmedi. 
+ Eğer yeterince büyük RAM'iniz yoksa Google Colab ya da başka bir bulut servisi kullanmanızı tavsiye ederim. Ben Google Colab kullandım fakat onun RAM'i de bana yetmedi. 
  Bu yüzden resim listesini parçalara ayırdım ve resim boyutunu azalttım. Böylece işlemin sonunda 10 adet dosya aldım.
  
  Pillow modülü resimleri okur ve numpy resimleri ndarray'e dönüştürür. Bundan sonra tüm resimler bir adte ndarray'e ekleir. Son olarak numpy, ndarray'i npy dosyası olarak kaydeder.
