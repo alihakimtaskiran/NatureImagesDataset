@@ -1,14 +1,13 @@
 # Nature Images Dataset
 This repository includes image to npy converter and link for converted npy files
 
-  NPY is a file format to store numpy arrays. How to work Image to NPY converter? Firstly it imports necessary python modules.
-They are numpy, cv2, pillow, matplotlib.pyplot, os, sys and google.cloab(optional). If you run this code in your computer you don't need google.colab module.
+  NPY is a file format to store numpy arrays. How to work Image to NPY converter? Firstly it imports necessary python modules.(numpy, cv2, pillow, matplotlib.pyplot, os, sys and google.cloab(optional)). If you run this code in your computer you don't need google.colab module.
 
   You have to copy all images into a folder. After that copy the python script into same folder. Script will get list of all files of the folder.
   
   Caution! there is an error may be occured. If you try to proccess large images, your RAM may not enough to this process and you get error.
 If you don't have large RAM, I recommend Google Colab or another cloud service. I've used Google Colab,but there wasn't enogh RAM. 
-I've splited image list and I decreased image size. So at the end of the process I got 10 files.
+I've splited image list and I reduced image size. So at the end of the process I got 10 files.
 
   Pillow module reads image and numpy module converts image into ndarray. After that all images are appends into a ndarray. Finally numpy saves ndarray as npy file.
 
